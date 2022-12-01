@@ -1,8 +1,10 @@
 package com.mygame.service;
-import com.mygame.dao.*;
-public class GameService {
+import com.mygame.dao.GameDAO;
 
-	public String getCityNameService(String CityName) {
-		return getCityNameService(CityName);
+public class GameService {
+public void getcityNameService()
+{
+	GameDAO GameDAOobj=new GameDAO();
+	GameDAOobj.getcityName();
 }
 }
