@@ -8,5 +8,7 @@ public String[]  getcityNameService()
 	GameDAOobj.getcityName();
 	String s[]=GameDAOobj.getcityName();
 	return s;
+	
+	
 }
 }
